@@ -43,7 +43,7 @@ export class CheckoutComponent implements OnInit {
         this.router.navigate(['/AllProducts']);
       }
     });
-  }
+  } //
 
   placeCartOrder(placeOrderFrm: NgForm) {
     if (placeOrderFrm.valid) {
