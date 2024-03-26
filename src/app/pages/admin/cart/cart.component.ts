@@ -10,7 +10,7 @@ import { of, take } from 'rxjs';
 })
 export class CartComponent implements OnInit {
 
-  ngOnInit(): void { }
+  ngOnInit(): void { } //
 
 }
 
